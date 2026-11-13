@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- index.html
+Audit éditorial : première page Bing non vérifiable. Échantillon de dix résultats publics pour Sugargoo spreadsheet, sans attribution de rang Bing.
+sugargo.net : catégories et comparaison ; sugargooo.com : photos QC et liens produits ;
+rep.tools : liens marchands et offres obsolètes ; sugargootab.com : variantes et contrôle en entrepôt ;
+sugargoox.com : recherche par référence et comparaison ; suugargoo.com : coût total et guides ;
+repsheet.net : sélection de taille et QC ; sugargoo.org : accès au catalogue ;
+sugagoo.com : listes par catégorie ; spreadsheet-sugargoo.com : navigation par famille de produits.
+Mots-clés secondaires : catalogue Sugargoo, photos QC Sugargoo, guide des tailles Sugargoo, livraison Sugargoo en France.
+Requêtes longue traîne ciblées :
+comment utiliser un Sugargoo spreadsheet ; catalogue Sugargoo en français ; trouver des baskets par catégorie ;
+comparer deux liens de baskets ; mesurer une semelle intérieure ; choisir une pointure avec les mesures ;
+choisir la taille d’un sweat à capuche ; mesurer un tee-shirt à plat ; vérifier la longueur des manches ;
+comparer la coupe de deux vestes ; choisir un pantalon à partir de l’entrejambe ; mesurer le tour de tête pour une casquette ;
+vérifier la taille du haut et du bas d’un ensemble ; vérifier la taille d’un maillot de sport ; mesurer son tour de poignet pour un bracelet ;
+vérifier un lien produit Weidian ; vérifier un lien produit Taobao ; retrouver une variante sur 1688 ;
+que montrent les photos QC Sugargoo ; demander une photo QC avec une règle ; que faire si la couleur reçue diffère ;
+estimer la livraison Sugargoo en France ; comparer poids réel et volumétrique ; calculer le coût total d’un colis en euros.
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Sugargoo spreadsheet | Catalogue, tailles et photos QC</title>
+<meta name="description" content="Parcourez dix catégories du catalogue CAFANS et apprenez à utiliser un Sugargoo spreadsheet : liens vendeurs, tailles, photos QC et livraison en France.">
+<meta name="theme-color" content="#142443">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Sugargoo spreadsheet | Catalogue, tailles et photos QC">
+<meta property="og:description" content="Dix catégories et un guide en français pour comparer les fiches, contrôler les variantes et préparer une livraison en France.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f5f9;color:#142443;font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(72rem,calc(100% - 2rem));margin:auto}
+a{color:inherit;text-underline-offset:.22em}
+a:focus-visible,summary:focus-visible{outline:3px solid #00728f;outline-offset:4px}
+header{background:#142443;color:#fff;padding:1.15rem 0 2rem}
+header a:focus-visible{outline-color:#e3f67e}
+.brand{font-weight:800;letter-spacing:.08em}
+.hero{display:grid;grid-template-columns:1.45fr 1fr;gap:clamp(1rem,4vw,3rem);align-items:center;margin-top:1rem}
+h1,h2,h3{line-height:1.15}
+h1{font-size:clamp(2.45rem,6vw,5.3rem);letter-spacing:-.055em;margin:0;overflow-wrap:anywhere}
+h2{font-size:clamp(1.5rem,4vw,2.2rem);margin:0 0 .8rem}
+h3{font-size:1.2rem;margin:0 0 .65rem}
+p{margin:.65rem 0}
+header p{color:#edf2fb;max-width:55ch}
+.button{display:inline-block;margin-top:.65rem;padding:.65rem 1rem;border-radius:.35rem;background:#e3f67e;color:#142443;font-weight:750}
+figure{margin:0}
+img{display:block;width:100%;height:auto;background:#e9edf3}
+.hero img{aspect-ratio:4/3;object-fit:contain;border-radius:.65rem}
+section{margin:1.8rem 0}
+nav ul,.gallery{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.55rem;padding:0;list-style:none}
+nav a{display:flex;align-items:center;min-height:3.1rem;height:100%;padding:.55rem .7rem;border:1px solid #c3cfe0;border-radius:.35rem;background:#fff;font-weight:650}
+nav a:hover{background:#e3f67e}
+.gallery{grid-template-columns:repeat(4,minmax(0,1fr))}
+.gallery figure{background:#fff;border:1px solid #c3cfe0;border-radius:.55rem;overflow:hidden}
+.gallery img{aspect-ratio:1;object-fit:contain}
+figcaption{padding:.4rem .65rem;font-size:.88rem}
+.guides{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+article,details{background:#fff;border:1px solid #c3cfe0;border-radius:.55rem;padding:1rem}
+details{margin:.5rem 0}
+summary{font-weight:700;cursor:pointer}
+footer{border-top:1px solid #c3cfe0;padding:1rem 0 1.5rem}
+@media(max-width:55rem){nav ul{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:38rem){.hero,.guides{grid-template-columns:1fr}.hero img{max-height:13rem}nav ul,.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "name":"Sugargoo spreadsheet | Catalogue, tailles et photos QC",
+  "inLanguage":"fr",
+  "mainEntity":[
+    {"@type":"Question","name":"Qu’est-ce qu’un Sugargoo spreadsheet ?","acceptedAnswer":{"@type":"Answer","text":"C’est un tableau qui regroupe des références et des liens produits pour faciliter la comparaison. Les catégories de ce guide ouvrent le catalogue CAFANS."}},
+    {"@type":"Question","name":"Comment vérifier un lien produit avant de commander ?","acceptedAnswer":{"@type":"Answer","text":"Ouvrez la fiche du vendeur et vérifiez que la référence, le coloris et la taille sélectionnée correspondent à votre choix. Si la fiche a changé, recherchez la référence exacte avant de payer."}},
+    {"@type":"Question","name":"Que montrent les photos QC Sugargoo ?","acceptedAnswer":{"@type":"Answer","text":"Les photos de contrôle qualité montrent l’article reçu à l’entrepôt. Comparez la variante et les finitions visibles avec la fiche. Une photo seule ne suffit pas pour établir l’authenticité."}},
+    {"@type":"Question","name":"Comment estimer la livraison Sugargoo en France ?","acceptedAnswer":{"@type":"Answer","text":"Renseignez la destination et les dimensions du colis dans l’estimateur du service choisi. Comparez le poids facturé et les frais applicables, puis convertissez le total en euros."}}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/mzfkf/">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="https://www.cafans.com">CAFANS</a>
+    <div class="hero">
+      <div>
+        <h1>Sugargoo spreadsheet</h1>
+        <p>Un Sugargoo spreadsheet est un tableau de références et de liens produits. Commencez par les catégories CAFANS, puis comparez la fiche vendeur, les mesures et les photos de contrôle qualité avant de commander.</p>
+        <a class="button" href="https://www.cafans.com">Ouvrir le catalogue CAFANS</a>
+      </div>
+      <figure>
+        <img src="https://img.modivo.cloud/product%28b/4/f/0/b4f0b8b93fe1016fb8e435f1a982d6be34fdaade_21_0196154768696_rz.jpg%2Cjpg%29/nike-scarpe-air-force-1-07-dz4711-100-bianco-0000304135156.jpg" width="640" height="480" fetchpriority="high" alt="Basket Nike Air Force 1 ’07 blanche">
+      </figure>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section>
+    <h2 id="categories">Explorer par catégorie</h2>
+    <nav aria-labelledby="categories">
+      <ul>
+        <li><a href="https://cafans.com/category-911-Shoes.html">Chaussures</a></li>
+        <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Sweats et pulls</a></li>
+        <li><a href="https://cafans.com/category-913-T-Shirts.html">T-shirts</a></li>
+        <li><a href="https://cafans.com/category-914-Jackets.html">Vestes</a></li>
+        <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Pantalons et shorts</a></li>
+        <li><a href="https://cafans.com/category-916-Headwear.html">Casquettes et bonnets</a></li>
+        <li><a href="https://cafans.com/category-917-Sets.html">Ensembles</a></li>
+        <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Sous-vêtements</a></li>
+        <li><a href="https://cafans.com/category-919-Jersey.html">Maillots</a></li>
+        <li><a href="https://cafans.com/category-920-Accessories.html">Accessoires</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section>
+    <h2>Repères visuels</h2>
+    <p>Les photos illustrent des styles. Vérifiez les références et la disponibilité sur chaque fiche.</p>
+    <div class="gallery">
+      <figure><img src="https://assets.christiandior.com/is/image/diorprod/513D499A3001C880_E01?%24default_GHC%24=&amp;bfc=on&amp;crop=384%2C150%2C1233%2C1546&amp;qlt=85" width="420" height="420" loading="lazy" decoding="async" alt="Blouson zippé à motif Dior Oblique"><figcaption>Blouson Dior Oblique</figcaption></figure>
+      <figure><img src="https://cdn.clothbase.com/uploads/c7b7b467-be57-4657-bd02-88d0c860fecb/P01192731.jpg" width="420" height="420" loading="lazy" decoding="async" alt="Casquette Gucci en toile à motif GG"><figcaption>Casquette Gucci GG</figcaption></figure>
+      <figure><img src="https://assets.hermes.com/is/image/hermesproduct/bracelet-clic-h--700001F%204P-front-1-300-0-1000-1000_b.jpg" width="420" height="420" loading="lazy" decoding="async" alt="Bracelet Hermès Clic H avec fermoir en forme de H"><figcaption>Bracelet Hermès Clic H</figcaption></figure>
+      <figure><img src="https://my.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-essential-scarf--M77728_PM2_Front%20view.jpg" width="420" height="420" loading="lazy" decoding="async" alt="Écharpe Louis Vuitton à motif Monogram et à franges"><figcaption>Écharpe Louis Vuitton</figcaption></figure>
+    </div>
+  </section>
+  <section>
+    <h2>Guides d’achat</h2>
+    <div class="guides">
+      <article>
+        <h3>Retrouver la bonne fiche vendeur</h3>
+        <p>Pour comparer deux liens de baskets, notez la référence, le coloris, la pointure et la date à laquelle vous avez consulté chaque fiche. Sur Weidian, Taobao ou 1688, vérifiez la variante après avoir ouvert le lien. Une même adresse peut présenter plusieurs modèles.</p>
+      </article>
+      <article>
+        <h3>Guide des tailles Sugargoo</h3>
+        <p>Mesurez un article que vous portez déjà et comparez vos chiffres au tableau du vendeur. Relevez la longueur de la semelle intérieure pour les baskets, la largeur à plat pour les t-shirts et les sweats, la longueur des manches pour les vestes et l’entrejambe pour les pantalons.</p>
+        <p>Pour une casquette ou un bracelet, mesurez le tour de tête ou de poignet. Pour un ensemble, contrôlez les dimensions du haut et du bas séparément.</p>
+      </article>
+      <article>
+        <h3>Examiner les photos QC Sugargoo</h3>
+        <p>Repérez l’étiquette de taille, les coutures et le coloris. En cas de doute sur une dimension, demandez, si le service le permet, une photo avec une règle placée au niveau de la mesure. Si la couleur reçue diffère de celle commandée, consultez les conditions de retour avant d’expédier le colis.</p>
+      </article>
+      <article>
+        <h3>Préparer une livraison Sugargoo en France</h3>
+        <p>Pour calculer votre budget en euros, additionnez le prix des articles, l’envoi intérieur, les frais de service, l’expédition internationale et les taxes ou frais applicables. Comparez le poids réel et le poids volumétrique lorsque le transporteur communique les deux, puis vérifiez la base de facturation avant de choisir.</p>
+      </article>
+    </div>
+  </section>
+  <section>
+    <h2>Questions fréquentes</h2>
+    <details open><summary>Qu’est-ce qu’un Sugargoo spreadsheet ?</summary><p>C’est un tableau qui regroupe des références et des liens produits pour faciliter la comparaison. Les catégories de ce guide ouvrent le catalogue CAFANS.</p></details>
+    <details><summary>Comment vérifier un lien produit avant de commander ?</summary><p>Ouvrez la fiche du vendeur et vérifiez que la référence, le coloris et la taille sélectionnée correspondent à votre choix. Si la fiche a changé, recherchez la référence exacte avant de payer.</p></details>
+    <details><summary>Que montrent les photos QC Sugargoo ?</summary><p>Les photos de contrôle qualité montrent l’article reçu à l’entrepôt. Comparez la variante et les finitions visibles avec la fiche. Une photo seule ne suffit pas pour établir l’authenticité.</p></details>
+    <details><summary>Comment estimer la livraison Sugargoo en France ?</summary><p>Renseignez la destination et les dimensions du colis dans l’estimateur du service choisi. Comparez le poids facturé et les frais applicables, puis convertissez le total en euros.</p></details>
+  </section>
+</main>
+<footer>
+  <div class="wrap"><p>Guide éditorial indépendant · <a href="https://www.cafans.com">CAFANS</a></p></div>
+</footer>
+</body>
+</html>
